@@ -11,24 +11,11 @@
     <loc>https://paperfoo.com/posts/</loc>
     <lastmod>2022-01-28T22:13:42+05:30</lastmod>
   </url><url>
-    <loc>https://paperfoo.com/tags/blogging/</loc>
-    <lastmod>2022-01-27T21:07:40+05:30</lastmod>
-  </url><url>
-    <loc>https://paperfoo.com/posts/my-first-post/</loc>
-    <lastmod>2022-01-27T21:07:40+05:30</lastmod>
-  </url><url>
-    <loc>https://paperfoo.com/tags/networks/</loc>
-    <lastmod>2022-01-27T21:07:40+05:30</lastmod>
-  </url><url>
-    <loc>https://paperfoo.com/tags/</loc>
-    <lastmod>2022-01-27T21:07:40+05:30</lastmod>
-  </url><url>
-    <loc>https://paperfoo.com/tags/tech/</loc>
-    <lastmod>2022-01-27T21:07:40+05:30</lastmod>
-  </url><url>
     <loc>https://paperfoo.com/about/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://paperfoo.com/categories/</loc>
+  </url><url>
+    <loc>https://paperfoo.com/tags/</loc>
   </url>
 </urlset>

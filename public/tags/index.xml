@@ -6,34 +6,6 @@
     <description>Recent content in Tags on PaperFoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Meera Sundar</copyright>
-    <lastBuildDate>Thu, 27 Jan 2022 21:07:40 +0530</lastBuildDate><atom:link href="https://paperfoo.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>blogging</title>
-      <link>https://paperfoo.com/tags/blogging/</link>
-      <pubDate>Thu, 27 Jan 2022 21:07:40 +0530</pubDate>
-      
-      <guid>https://paperfoo.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>networks</title>
-      <link>https://paperfoo.com/tags/networks/</link>
-      <pubDate>Thu, 27 Jan 2022 21:07:40 +0530</pubDate>
-      
-      <guid>https://paperfoo.com/tags/networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://paperfoo.com/tags/tech/</link>
-      <pubDate>Thu, 27 Jan 2022 21:07:40 +0530</pubDate>
-      
-      <guid>https://paperfoo.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Meera Sundar</copyright><atom:link href="https://paperfoo.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
