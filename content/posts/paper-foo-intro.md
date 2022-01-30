@@ -2,6 +2,7 @@
 title: "Paperfoo Intro"
 date: 2022-01-28T22:13:42+05:30
 draft: false
+tags: ["paperfoo", "about"]
 ---
 
 Welcome!
