@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://paperfoo.com"
 languageCode = "en-us"
 title = "PaperFoo"
 theme = "minimal-bootstrap-hugo-theme"
