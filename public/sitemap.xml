@@ -2,27 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/tags/about/</loc>
-    <lastmod>2022-01-28T22:13:42+05:30</lastmod>
+    <loc>https://paperfoo.com/</loc>
+    <lastmod>2022-01-30T20:30:43+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
-    <lastmod>2022-01-28T22:13:42+05:30</lastmod>
+    <loc>https://paperfoo.com/posts/</loc>
+    <lastmod>2022-01-30T20:30:43+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/tags/paperfoo/</loc>
-    <lastmod>2022-01-28T22:13:42+05:30</lastmod>
+    <loc>https://paperfoo.com/posts/test-post/</loc>
+    <lastmod>2022-01-30T20:30:43+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/posts/paper-foo-intro/</loc>
-    <lastmod>2022-01-28T22:13:42+05:30</lastmod>
-  </url><url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2022-01-28T22:13:42+05:30</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2022-01-28T22:13:42+05:30</lastmod>
-  </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://paperfoo.com/about/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://paperfoo.com/categories/</loc>
+  </url><url>
+    <loc>https://paperfoo.com/tags/</loc>
   </url>
 </urlset>
