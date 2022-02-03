@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="generator" content="Hugo 0.82.0" />
+
+  
+  <meta name="description" content="Welcome!!!">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://paperfoo.com/apple-touch-icon.png">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://paperfoo.com/favicon-32x32.png">
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="https://paperfoo.com/favicon-16x16.png">
+
+  
+  <link rel="manifest" href="https://paperfoo.com/site.webmanifest">
+
+  
+  <link rel="mask-icon" href="https://paperfoo.com/safari-pinned-tab.svg" color="#5bbad5">
+
+  <meta name="msapplication-TileColor" content="#da532c">
+
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <link rel="stylesheet" href="https://paperfoo.com/css/bootstrap.min.css" />
+
+  
+  <title>The Design Philosophy of the DARPA Internet Protocols | PaperFoo</title>
+  
+
+  <style>
+body {
+  min-width: 300px;
+}
+
+.custom-navbar {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+.custom-navbar a {
+  display: inline-block; 
+  padding: 18px 0;
+  margin-right: 1em; 
+  font-weight: bold; 
+}
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  text-decoration: none; 
+}
+
+@media print {
+  .custom-navbar {
+    display: none;
+  }
+}
+
+article {
+  padding-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  background-color: #fff;
+}
+
+
+
+body {
+  color: #212529;
+}
+
+
+
+a {
+  color: #007bff;
+}
+
+
+
+a:hover,
+a:focus {
+  color: #0056b3;
+}
+
+
+
+.custom-navbar {
+  background-color: #212529;
+}
+
+
+
+.custom-navbar a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+.container {
+  max-width: 800px;
+}
+
+
+
+pre {
+  display: block;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+code {
+  padding: 2px 4px;
+  color: inherit; 
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: .9em;
+}
+
+
+
+blockquote,
+.blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 1em;
+  border-left: 5px solid #6c757d;
+}
+
+</style>
+</head>
+
+<body>
+  <nav class="custom-navbar">
+  <div class="container">
+    
+    <a href="/">Posts</a>
+    
+    <a href="/tags/">Tags</a>
+    
+    <a href="/about/">About</a>
+    
+  </div>
+</nav>
+  
+  <div class="container">
+    <article>
+      <h1>The Design Philosophy of the DARPA Internet Protocols</h1>
+<hr>
+<p>This is a summary of David D. Clark&rsquo;s 1988 <a href="http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf">paper</a> titled &ldquo;The Design Philoshophy of the DARPA Internet Protocols&rdquo;.</p>
+<h4 id="main-idea">Main idea:</h4>
+<p><br>
+<code>Why is the TCP/IP Internet protocol suite designed the way it is? </code><br>
+This paper is an attempt to highlight some of the early reasoning behind the architectural decisions taken while designing the Internet protocols.</p>
+<p>Two key ideas:</p>
+<ol>
+<li>the datagram (or connectionless service)</li>
+<li>layering of separate IP and TCP layers</li>
+</ol>
+<p>These ideas were not part of the original proposal. The protocol design evolved through the repeated pattern of implementation and testing before being set as standards.</p>
+<h4 id="fundamental-goal-for-the-darpa-internet-architecture">Fundamental Goal for the DARPA Internet Architecture:</h4>
+<p><code>To develop an effective technique for multiplexed utilization of existing interconnected networks.</code> - Essentially to interconnect existing networks.</p>
+<ul>
+<li>Original goal: to connect together the ARPANET with the ARPA packet radio network, to give users on the packet radio network access to machines on the ARPANET</li>
+<li>Integrating a number of separately administrated entities into a common, practical utility, rather than designing a unified system from scratch</li>
+<li>Multiplexing technique chosen: <a href="https://en.wikipedia.org/wiki/Packet_switching">packet switching</a> (which naturally served expected applications like remote login)</li>
+<li>Interconnecting technique chosen: <a href="https://en.wikipedia.org/wiki/Store_and_forward">store and forward packet switching</a>. Existing expertise from ARPANET.</li>
+</ul>
+<pre><code>Fundamental structure of the Internet: Networks would be interconnected by a layer of Internet packet switches, called gateways, and implementing a store-and-forward packet forwarding algorithm.
+</code></pre><h4 id="second-level-goals">Second Level Goals</h4>
+<p>A more detailed set of goals for the Internet architecture:</p>
+<ol>
+<li>uninterrupted communication, despite loss of networks / gateways</li>
+<li>support for multiple types of communications service</li>
+<li>accommodate a variety of networks</li>
+<li>permit distributed management of its resources</li>
+<li>cost-effectiveness</li>
+<li>low-level effort for host attachment</li>
+<li>accountability for resources used</li>
+</ol>
+<p>These are listed in order of importance, and a different order would have probably resulted in an entirely different architecture. Since this was designed in a military context, survivability and flexibility with service types were given more importance than accounting.</p>
+<h4 id="survivability-in-the-face-of-failure">Survivability in the Face of Failure</h4>
+
+    </article>
+  </div>
+
+  
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  
+
+  
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#216942",
+      "text": "#b2d192"
+    },
+    "button": {
+      "background": "#afed71"
+    }
+  }
+})});
+</script>
+
+</body>
+
+</html>
