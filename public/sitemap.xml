@@ -3,12 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://paperfoo.com/</loc>
-    <lastmod>2022-01-30T20:30:43+05:30</lastmod>
+    <lastmod>2022-02-03T15:41:45+05:30</lastmod>
   </url><url>
     <loc>https://paperfoo.com/posts/</loc>
-    <lastmod>2022-01-30T20:30:43+05:30</lastmod>
+    <lastmod>2022-02-03T15:41:45+05:30</lastmod>
   </url><url>
-    <loc>https://paperfoo.com/posts/test-post/</loc>
+    <loc>https://paperfoo.com/posts/internet-protocols-design-philosophy/</loc>
+    <lastmod>2022-02-03T15:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://paperfoo.com/posts/list-of-papers-draft/</loc>
     <lastmod>2022-01-30T20:30:43+05:30</lastmod>
   </url><url>
     <loc>https://paperfoo.com/about/</loc>
