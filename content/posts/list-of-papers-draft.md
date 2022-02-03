@@ -33,4 +33,10 @@ draft: true
 27. Performance evolution of Linux’s core operations
 28. Fast, Interactive Origami Simulation using GPU Computation
 29. Quicksort
-30. RAFT: Recurrent All-Pairs Field Transforms for Optical Flow
+30. A Method for the Construction of Minimum-redundancy codes - Huffman
+31. RAFT: Recurrent All-Pairs Field Transforms for Optical Flow
+32. 
+33. 
+34. 
+35. Curvature and Creases: A primer on Paper (David Huffman)
+
