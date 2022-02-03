@@ -4,7 +4,7 @@ date: 2022-02-03T15:41:45+05:30
 draft: true
 ---
 ---
-This is a summary of David D. Clark's 1988 [paper](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf) titled "The Design Philoshophy of the DARPA Internet Protocols".
+Summary of David D. Clark's 1988 [paper](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf) titled "The Design Philoshophy of the DARPA Internet Protocols".
 
 #### Main idea:
 \
